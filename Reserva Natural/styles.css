@@ -1,0 +1,94 @@
+/* Estilo para la barra superior */
+.header-bar {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+
+/* Estilo para el botón del menú */
+.menu-button {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Estilo para el título de la barra */
+.header-title {
+    font-size: 1.5rem;
+}
+
+/* Estilo para el menú lateral */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Estilo de los enlaces del menú lateral */
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces */
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+/* Estilo del botón para cerrar el menú */
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+/* Estilo general del contenido principal */
+#main-content {
+    margin: 0px;
+}
+
+/* Clase para ocultar secciones */
+.hidden {
+    display: none;
+}
+
+/* Estilo para secciones y elementos */
+section {
+    margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}

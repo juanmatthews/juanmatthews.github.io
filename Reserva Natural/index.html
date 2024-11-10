@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reserva Natural Divisadero Largo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Barra superior -->
+        <div class="header-bar">
+            <button class="menu-button" onclick="toggleMenu()">&#9776;</button>
+            <span class="header-title">Natural Travel</span>
+        </div>
+
+        <!-- Menú lateral -->
+        <div id="sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+            <a href="#inicio" onclick="toggleMenu()">Inicio</a>
+            <a href="#contactenos" onclick="toggleMenu()">Contáctenos</a>
+            <a href="#precios" onclick="toggleMenu()">Precios</a>
+            <a href="#galeria" onclick="toggleMenu()">Galería</a>
+            <a href="#informacion" onclick="toggleMenu()">Información de la Reserva</a>
+            <a href="seccion exclusiva.html" onclick="mostrarSeccionExclusiva()">Mas Información</a>
+        </div>
+
+        <!-- Contenido principal -->
+        <div id="main-content">
+            <section id="inicio">
+                <h1>Bienvenidos a Natural Travel</h1>
+                <p>Te acompañamos en tus vacaciones para que las disfrutes al maximo solo con familia o con amigos no
+                    importa nosotros nos aseguramos de que siempre lo disfrutes
+                </p>
+            </section>
+
+            <section id="galeria">
+                <h2>Galería</h2>
+                <p>Descubre la belleza de la Reserva a través de nuestra galería de fotos. Aquí podrás ver los
+                    impresionantes paisajes, la flora y fauna que la hacen un lugar especial.</p>
+                <img src="../Images/Imagen Promocional.jpg" alt="Paisaje de la reserva" width="150">
+                <img src="../Images/Imagen promocional 2.jpg" alt="Flora de la reserva" width="150">
+                <img src="../Images/Imagen Promocional 3.jpg" alt="Fauna de la reserva" width="150">
+                <img src="../Images/Imagen promocional 4.jpg" alt="Fauna de la reserva" width="150">
+                <img src="../Images/Imagen promocional 5.jpg" alt="Fauna de la reserva" width="150">
+                <img src="../Images/Imagen promocional 6.webp" alt="Fauna de la reserva" width="150">
+            </section>
+
+
+
+            <section id="informacion">
+                <h2>Información de la Reserva</h2>
+                <p>La Reserva Natural Divisadero Largo ofrece una amplia variedad de flora, fauna y paisajes increíbles
+                    tiene un clima arido y tiene 492 hectareas.
+                </p>
+            </section>
+
+            <section id="seccion-exclusiva" class="hidden">
+                <h2>Sección Exclusiva</h2>
+                <p>Esta sección esta dedicada a brindar mas informacion sobre la reserva</p>
+            </section>
+
+            <section id="precios">
+                <h2>Precios</h2>
+                <h3>Paquetes Familiares</h3>
+
+                <h4>Paquete Natural Premium</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $30.000</li>
+                    <li><strong>Guiada:</strong> $40.000</li>
+                    <li><strong>Comida:</strong> $30.000</li>
+                    <li><strong>Alojamiento:</strong> $60.000</li>
+                </ul>
+
+                <h4>Paquete Completo</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $20.000</li>
+                    <li><strong>Guiada:</strong> $40.000</li>
+                    <li><strong>Comida:</strong> $15.000</li>
+                </ul>
+
+                <h4>Paquete Medio</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $20.000</li>
+                    <li><strong>Guiada:</strong> $40.000</li>
+                </ul>
+
+                <h4>Paquete Económico</h4>
+                <ul>
+                    <li><strong>Guiada:</strong> $40.000</li>
+                </ul>
+
+                <h3>Paquetes Individuales</h3>
+
+
+                <h4>Paquete Natural Premium</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $15.000</li>
+                    <li><strong>Guiada:</strong> $20.000</li>
+                    <li><strong>Comida:</strong> $15.000</li>
+                    <li><strong>Alojamiento:</strong> $30.000</li>
+                </ul>
+
+                <h4>Paquete Completo</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $10.000</li>
+                    <li><strong>Guiada:</strong> $20.000</li>
+                    <li><strong>Comida:</strong> $10.000</li>
+                </ul>
+
+                <h4>Paquete Medio</h4>
+                <ul>
+                    <li><strong>Transporte:</strong> $10.000</li>
+                    <li><strong>Guiada:</strong> $20.000</li>
+                </ul>
+
+                <h4>Paquete Económico</h4>
+                <ul>
+                    <li><strong>Guiada:</strong> $20.000</li>
+                </ul>
+
+            </section>
+
+            <section id="contactenos">
+                <h2>Contáctenos</h2>
+                <p>Para más información, puedes contactarnos a través de nuestras redes sociales o al teléfono +54 123
+                    456 7890.</p>
+            </section>
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
