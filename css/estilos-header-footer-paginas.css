@@ -29,7 +29,7 @@
 .contenedor-topheader img{
     
     height: 150px;
-    
+    margin: 10px;
     align-items: center;
     
 }
@@ -63,7 +63,7 @@ nav {
     color: white;
 }
 .menu-vertical > li > a:hover {
-    background-color: #BC002D;
+    background-color: #01a2d8;
     color: white;
 }
 .menu-vertical {
